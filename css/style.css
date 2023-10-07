@@ -715,3 +715,201 @@ footer .content li {
   }
 }
 /* popup end */
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .menu {
+    display: none;
+  }
+  .description {
+    margin-top: 60px;
+    flex-direction: column;
+  }
+  .description .left-panel {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
+  .description .left-panel img {
+    width: 300px;
+  }
+  .description .left-panel .b-p {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .description .right-panel {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .heading h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .description .right-panel .details li {
+    padding: 15px;
+    margin-top: 15px;
+  }
+  .description .right-panel .details li p {
+    font-size: 16px;
+  }
+  .description .right-panel .details li img {
+    width: 40px;
+  }
+  .choose-us {
+    padding: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  .choose-us .left-panel {
+    width: 100%;
+  }
+  .choose-us h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .choose-us .left-panel li {
+    width: 122px;
+    height: 122px;
+    margin: 10px;
+  }
+  .choose-us .right-panel {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .choose-us .right-panel p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .prime-bg {
+    margin-top: 30px;
+  }
+  .prime {
+    border-radius: 10px;
+    background: #fff;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: unset;
+    flex-direction: column;
+    align-items: center;
+  }
+  .prime .left-panel {
+    width: 100%;
+  }
+  .prime .right-panel {
+    width: 100%;
+  }
+  .crown {
+    display: none;
+  }
+  .prime .right-panel .details {
+    margin-top: 30px;
+  }
+  .prime .right-panel .details p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .prime .right-panel .details .explore-prime,
+  .prime .right-panel .details .course-list {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px 0;
+  }
+  .subjects {
+    justify-content: unset;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .subjects .left-panel {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .subjects .left-panel h2 {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+  }
+  .subjects .left-panel li {
+    margin: 20px 10px;
+    width: 26.2%;
+  }
+  .subjects .right-panel {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .subjects .right-panel p {
+    margin-top: 10px;
+  }
+  .companies {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  .colleges-bg {
+    margin-top: 40px;
+    padding: 30px;
+  }
+  .colleges {
+    margin-top: 40px;
+  }
+  .get-prime {
+    padding: 30px;
+    margin-top: 40px;
+  }
+  .get-prime ul {
+    margin-top: 0px;
+    flex-direction: column;
+  }
+  .get-prime li {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .get-prime li p {
+    margin-bottom: 40px;
+  }
+  .get-prime li h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  footer .content .quick-links {
+    display: none;
+  }
+  footer .content {
+    display: flex;
+    justify-content: unset;
+    flex-direction: column;
+  }
+  footer .left-panel {
+    width: 100%;
+    text-align: center;
+  }
+  footer .left-panel img {
+    margin: 20px auto 40px;
+    width: 70%;
+    display: block;
+  }
+  footer .left-panel span {
+    font-size: 16px;
+  }
+  footer .left-panel p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  #contact {
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    font-size: 30px;
+  }
+}
